@@ -1,0 +1,916 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9081694497747510139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: aa91f40b2d04c05468ee5501c2c7d16a
+  position: {x: 1891.4994, y: 1190}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 2020386839047770347}
+  - {fileID: 2770629773175075287}
+--- !u!114 &-8662982435388719623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524a10cc40038d44e85eeabe39334571, type: 3}
+  m_Name: UseBasicMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 17a9bc61b95ed1b449f96019e3be09f1
+  position: {x: 560.0001, y: 1339}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-8569535259166127942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafcee52ae753db4aa7a19c01af37d81, type: 3}
+  m_Name: UseHighMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b8c0083b0130ea9439ccf7cefcc4a5c3
+  position: {x: 1058.4658, y: 1338.9998}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-8389824959654389093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524a10cc40038d44e85eeabe39334571, type: 3}
+  m_Name: UseBasicMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0fac2af53ba29d84481d0cbecaea8bd5
+  position: {x: -671.90015, y: 1328}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-8053418661471625085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 645002f0dbcaca240ad613421c7cfdab
+  position: {x: 75.00022, y: 613}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -7676300471150822617}
+  - {fileID: -2540502200577040309}
+--- !u!114 &-7676300471150822617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cc3859ec59ff34bb586107f0496ba6, type: 3}
+  m_Name: CheckPhase2Mage
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c9ed757f465228447b0a108b67ef023e
+  position: {x: -106.99977, y: 766.00006}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-7104342313724843187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be2de662662ae6e43947d2d5224c6c6a, type: 3}
+  m_Name: ExterminatedMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7f27f38ac9d960541a9e4cdcda140804
+  position: {x: -1074, y: 731.99994}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-6748523424675266425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4baf0021393a67c47b098feea9553bc0, type: 3}
+  m_Name: CheckInterMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7a9042f1c347a5e4fbfbfa7ee0f36fcd
+  position: {x: 1365.9319, y: 1337}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-5713749804882762434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafcee52ae753db4aa7a19c01af37d81, type: 3}
+  m_Name: UseHighMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 24f268090ac32df4abba407ed57d1044
+  position: {x: -214.71323, y: 1339}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-5159960998007674008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9078c04e7f18bf47baaa16a3be7bdd9, type: 3}
+  m_Name: UseInterMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 53bb0e666134b0c4d94f7d75ba7648c5
+  position: {x: -1164.7407, y: 1328}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-5098204478362145787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1d277d39f99c3a24aa88f278b994249e
+  position: {x: -699.00006, y: 613}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 6089611550689206889}
+  - {fileID: -342329961750687501}
+--- !u!114 &-5090968941058041835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4baf0021393a67c47b098feea9553bc0, type: 3}
+  m_Name: CheckInterMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9e27331a63c36144a844cee861e62f65
+  position: {x: -36.88238, y: 1338.9999}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-4777170430709937723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 11ac4c442f644de4991f6fc66b32f756
+  position: {x: -257.00003, y: 1192}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -1965071205892411617}
+  - {fileID: -5713749804882762434}
+--- !u!114 &-4586518645384290569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17b84313c235d540af97c872d4a11a3, type: 3}
+  m_Name: CheckBasicMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 176cbcbc97f845c4c9199bcb04c36640
+  position: {x: 360.73315, y: 1339}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-3556097567783371152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9078c04e7f18bf47baaa16a3be7bdd9, type: 3}
+  m_Name: UseInterMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6dc946bf06a62f14bb236d9ee2e7d05f
+  position: {x: 156.11761, y: 1338.9999}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-2540502200577040309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ecdeee55dbd9c554d83a17c0997b3af9
+  position: {x: 75.00022, y: 883}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -4777170430709937723}
+  - {fileID: 7930784103668994257}
+  - {fileID: -2195673728882695243}
+--- !u!114 &-2195673728882695243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 374ba99c8aa08884a92c81b493e49b57
+  position: {x: 510.0001, y: 1192}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -4586518645384290569}
+  - {fileID: -8662982435388719623}
+--- !u!114 &-1965071205892411617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a23e40990e63ef146a354a182c5766c5, type: 3}
+  m_Name: CheckHighMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 627b35545026ed941a968df0a8514b52
+  position: {x: -430, y: 1339}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-1837089603935776693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d15c2647e219646b8568c911113bd0, type: 3}
+  m_Name: CheckPhaseTrigger
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d5fa36e29b280e048b9627f2cb3360ef
+  position: {x: -1274.4375, y: 732}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &-1225615935147154586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: bd807846d1517ec448309ac964221adf
+  position: {x: 1130.0428, y: 634}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 2559042805850915456}
+  - {fileID: 7212516694617788260}
+--- !u!114 &-1112016763689202696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb5496e8cd973748a10b3e3ef436ebd, type: 3}
+  m_Name: Repeat
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 3622b7459175455428eea4c8acd7ccc8
+  position: {x: 0, y: 156}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  child: {fileID: 3937866287690333918}
+  restartOnSuccess: 1
+  restartOnFailure: 1
+--- !u!114 &-342329961750687501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8fc55a1e14d8a4d408b0f924b5618b53
+  position: {x: -699.22205, y: 948.00006}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 6013900963551727139}
+  - {fileID: 5592877215202024636}
+--- !u!114 &-161645489712478736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a23e40990e63ef146a354a182c5766c5, type: 3}
+  m_Name: CheckHighMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5b76b71595a95c74fbb685cbc2deec33
+  position: {x: 853.96564, y: 1337.0001}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
+  m_Name: MageTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 3683002931540193812}
+  treeState: 0
+  nodes:
+  - {fileID: 3683002931540193812}
+  - {fileID: -1112016763689202696}
+  - {fileID: 3937866287690333918}
+  - {fileID: 5939169098834654946}
+  - {fileID: -5098204478362145787}
+  - {fileID: -8053418661471625085}
+  - {fileID: -1225615935147154586}
+  - {fileID: 6089611550689206889}
+  - {fileID: -7676300471150822617}
+  - {fileID: 2559042805850915456}
+  - {fileID: -342329961750687501}
+  - {fileID: -2540502200577040309}
+  - {fileID: 7212516694617788260}
+  - {fileID: 6013900963551727139}
+  - {fileID: 5592877215202024636}
+  - {fileID: -4777170430709937723}
+  - {fileID: -2195673728882695243}
+  - {fileID: 7930784103668994257}
+  - {fileID: 8236811815664289240}
+  - {fileID: 1036919544890564705}
+  - {fileID: -9081694497747510139}
+  - {fileID: -161645489712478736}
+  - {fileID: -1965071205892411617}
+  - {fileID: 7933509383603671481}
+  - {fileID: -5090968941058041835}
+  - {fileID: -6748523424675266425}
+  - {fileID: 275972887567663963}
+  - {fileID: -4586518645384290569}
+  - {fileID: 2020386839047770347}
+  - {fileID: -5159960998007674008}
+  - {fileID: -3556097567783371152}
+  - {fileID: -5713749804882762434}
+  - {fileID: -8389824959654389093}
+  - {fileID: -8662982435388719623}
+  - {fileID: 6801624393399621298}
+  - {fileID: 2770629773175075287}
+  - {fileID: -8569535259166127942}
+  - {fileID: -7104342313724843187}
+  - {fileID: 6198055392678676520}
+  - {fileID: -1837089603935776693}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &275972887567663963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4baf0021393a67c47b098feea9553bc0, type: 3}
+  m_Name: CheckInterMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4c7e22f64099c3e41be89d82fcf50ee9
+  position: {x: -1375.7407, y: 1328}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &1036919544890564705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e7153574da4ca324f9cc7a7833f2a361
+  position: {x: 1479.9319, y: 1192}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -6748523424675266425}
+  - {fileID: 6801624393399621298}
+--- !u!114 &2020386839047770347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17b84313c235d540af97c872d4a11a3, type: 3}
+  m_Name: CheckBasicMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0ac28bac0ab55a8468362fcd0ef101c5
+  position: {x: 1802.4998, y: 1339}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &2559042805850915456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0d75b1bf076d542bad575bd9af3962, type: 3}
+  m_Name: CheckPhase3Mage
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ba6434de4a9f6f042ac00be9d9ebe84b
+  position: {x: 1003.0428, y: 796}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &2770629773175075287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524a10cc40038d44e85eeabe39334571, type: 3}
+  m_Name: UseBasicMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d21bbdcb4604f824a917720c15887cc9
+  position: {x: 1981.9996, y: 1337}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &3683002931540193812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163c147d123e4a945b688eddc64e3ea5, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: b19dab0e864a4e8438a918e33a94f5d3
+  position: {x: 0, y: 0}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  child: {fileID: -1112016763689202696}
+--- !u!114 &3937866287690333918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5640a1cd5e8884b4ebe724b3e1ccac9d
+  position: {x: 0.0000038146973, y: 340.22662}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 5939169098834654946}
+  - {fileID: 6198055392678676520}
+  - {fileID: -5098204478362145787}
+  - {fileID: -8053418661471625085}
+  - {fileID: -1225615935147154586}
+--- !u!114 &5592877215202024636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 988146d2874329b45860c5d607452752
+  position: {x: -734.22205, y: 1170}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 7933509383603671481}
+  - {fileID: -8389824959654389093}
+--- !u!114 &5939169098834654946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bf7808e69d5434dacd770ab9df33ec, type: 3}
+  m_Name: SpawnAndProvoke
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fb42101a39fe80d4aab24392850ae67a
+  position: {x: -1501.7535, y: 581}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &6013900963551727139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 239c7a9d61d27a74c939e10a3a189e12
+  position: {x: -1184.7407, y: 1170}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 275972887567663963}
+  - {fileID: -5159960998007674008}
+--- !u!114 &6089611550689206889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5c009fbef19d040a2f3860d0c7abaa, type: 3}
+  m_Name: CheckPhase1Mage
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 28753b9704933954b8adfdfa00bef5c1
+  position: {x: -884.00024, y: 797.99994}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &6198055392678676520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 58466f7769ab9014b8a6f8eba297b582
+  position: {x: -1074.0002, y: 590.00006}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -1837089603935776693}
+  - {fileID: -7104342313724843187}
+--- !u!114 &6801624393399621298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9078c04e7f18bf47baaa16a3be7bdd9, type: 3}
+  m_Name: UseInterMagic
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2e0f6f59d7eceee41a3ae3e077650cc1
+  position: {x: 1538.9318, y: 1337}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &7212516694617788260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 953d34dc8220c2349b69b2338e8ab6a1
+  position: {x: 1245.0427, y: 925}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 8236811815664289240}
+  - {fileID: 1036919544890564705}
+  - {fileID: -9081694497747510139}
+--- !u!114 &7930784103668994257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9e728a1f8679fc84989f1d5311602156
+  position: {x: 124.11755, y: 1192}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -5090968941058041835}
+  - {fileID: -3556097567783371152}
+--- !u!114 &7933509383603671481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17b84313c235d540af97c872d4a11a3, type: 3}
+  m_Name: CheckBasicMagicEnable
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 39ea60d37c866684f9c31d406e49890d
+  position: {x: -878.22205, y: 1328}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+--- !u!114 &8236811815664289240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a784b3247550b0c468ad463fd3011dcf
+  position: {x: 1026.9656, y: 1190.0001}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -161645489712478736}
+  - {fileID: -8569535259166127942}
